@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Weather Globe</title>
+</head>
+<body>
+    <canvas id="globe"></canvas>
+    <script type="module">
+        import * as THREE from "https://unpkg.com/three@0.165.0/build/three.module.js";
+        import { initGlobe } from "./globe.js";
+
+        initGlobe(THREE);  // ← THREE を渡す
+    </script>
+</body>
+</html>
